@@ -173,3 +173,6 @@ public class ProductService {
 }
 ```
 Each propagation type serves different use cases and helps manage transaction boundaries effectively in a Spring Boot application.
+
+
+EAGER. By default, @OneToMany and @ManyToMany associations use the FetchType. LAZY strategy while the @OneToOne and @ManyToOne use the FetchType.
